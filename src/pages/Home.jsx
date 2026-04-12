@@ -57,44 +57,46 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="section">
+      <section className="section bg-light-neutral">
         <div className="container">
           <div className="section-header text-center">
-            <h2>Services Designed Around You</h2>
-            <div className="divider"></div>
+            <h2 className="section-title">Solutions for Quality Care.</h2>
+            <p className="header-subtitle mx-auto">
+              Our core services are designed around you, offering effective and personalized treatments to ensure long-term health improvements.
+            </p>
           </div>
           
-          <div className="services-grid">
-            <div className="card premium-card">
-              <div className="card-image">
+          <div className="services-grid mt-10">
+            <div className="card service-card">
+              <div className="service-img-square bg-consultation">
                  <img src="/images/consultation.png" alt="Consultation Room" />
               </div>
-              <div className="card-content">
+              <div className="service-card-body">
                 <h3>Consultation</h3>
                 <p>A one-on-one session to understand your condition, identify root causes, and guide you with a structured treatment plan tailored to your needs.</p>
-                <Link to="/services" className="link-with-icon mt-auto">Learn More <ArrowRight size={16} /></Link>
+                <Link to="/services" className="link-read-more">Read More <ArrowRight size={14} /></Link>
               </div>
             </div>
             
-            <div className="card premium-card">
-              <div className="card-image img-lung">
+            <div className="card service-card">
+              <div className="service-img-square bg-lung">
                  <img src="/images/lung_therapy.png" alt="Lung Therapy Equipment" />
               </div>
-              <div className="card-content">
+              <div className="service-card-body">
                 <h3>Lung Therapy</h3>
                 <p>Focused therapy designed to improve breathing, strengthen lung function, and support recovery through targeted techniques.</p>
-                <Link to="/services" className="link-with-icon mt-auto">Learn More <ArrowRight size={16} /></Link>
+                <Link to="/services" className="link-read-more">Read More <ArrowRight size={14} /></Link>
               </div>
             </div>
             
-            <div className="card premium-card">
-              <div className="card-image img-cupping">
+            <div className="card service-card">
+              <div className="service-img-square bg-cupping">
                  <img src="/images/cupping_therapy.png" alt="Cupping Therapy" />
               </div>
-              <div className="card-content">
+              <div className="service-card-body">
                 <h3>Cupping Therapy</h3>
                 <p>A traditional yet effective therapy that helps improve circulation, relieve muscle tension, and support overall healing.</p>
-                <Link to="/services" className="link-with-icon mt-auto">Learn More <ArrowRight size={16} /></Link>
+                <Link to="/services" className="link-read-more">Read More <ArrowRight size={14} /></Link>
               </div>
             </div>
           </div>
@@ -139,7 +141,7 @@ export default function Home() {
         <div className="container">
           <h2>Start Your Healing Journey Today</h2>
           <p>Take the first step towards better health with a consultation designed around you.</p>
-          <Link to="/contact" className="btn btn-primary btn-white">Book Consultation</Link>
+          <Link to="/contact" className="btn btn-primary">Book Consultation</Link>
         </div>
       </section>
     </div>
