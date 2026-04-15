@@ -32,7 +32,7 @@ export default function Services() {
                   <h2 style={{ margin: 0 }}>Consultation</h2>
                 </div>
                 <p className="lead-text">
-                  A one-on-one session designed to understand your health concerns in detail. This is the first and most important step where Dr Sany Nutra evaluates your condition, identifies potential root causes, and creates a clear plan forward.
+                  A one-on-one session designed to understand your health concerns in detail. This is the first and most important step where Dr Sany Nutra, ND evaluates your condition, identifies potential root causes, and creates a clear plan forward.
                 </p>
                 <div className="service-details-grid">
                   <div>

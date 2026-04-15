@@ -38,19 +38,19 @@ export default function Home() {
       <section className="section section-light">
         <div className="container intro-container">
           <div className="intro-image-wrapper">
-             <img src="/images/main-bg.webp" alt="Dr Sany Nutra" className="intro-image" />
+             <img src="/images/main-bg.webp" alt="Dr Sany Nutra, ND" className="intro-image" />
           </div>
           <div className="intro-text">
-            <h2>Meet Dr Sany</h2>
+            <h2>Meet Dr Sany, ND</h2>
             <div className="divider-left"></div>
             <p className="lead-text">
-              With years of experience in treating patients through both clinical knowledge and holistic methods, Dr Sany focuses on understanding the root cause of health concerns rather than just managing symptoms.
+              With years of experience in treating patients through both clinical knowledge and holistic methods, Dr Sany, ND focuses on understanding the root cause of health concerns rather than just managing symptoms.
             </p>
             <p>
               Every treatment is designed to be clear, personalized, and effective — ensuring you feel confident and informed at every step.
             </p>
             <Link to="/about" className="link-with-icon btn-outline">
-              Learn More About Dr Sany <ArrowRight size={16} />
+              Learn More About Dr Sany, ND <ArrowRight size={16} />
             </Link>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose Dr Sany */}
+      {/* Why Choose Dr Sany, ND */}
       <section className="section bg-gradient-brand text-white">
         <div className="container">
           <div className="section-header text-center">
