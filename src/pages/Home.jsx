@@ -28,7 +28,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-image-wrapper">
-            <img src="/images/hero_clinic.png" alt="Modern naturopathic clinic waiting room" className="hero-image" />
+            <img src="/images/banner.jpg" alt="Modern naturopathic clinic waiting room" className="hero-image" />
             <div className="hero-image-decoration"></div>
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function Services() {
             {/* Consultation */}
             <div className="service-row premium-card service-split">
               <div className="card-image service-image-wrapper">
-                 <img src="/images/consultation.png" alt="Consultation Room" className="full-cover-image" />
+                 <video src="/images/consultation.mp4" autoPlay loop muted playsInline className="full-cover-image" />
               </div>
               <div className="card-content service-content">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
@@ -32,7 +32,7 @@ export default function Services() {
                   <h2 style={{ margin: 0 }}>Consultation</h2>
                 </div>
                 <p className="lead-text">
-                  A one-on-one session designed to understand your health concerns in detail. This is the first and most important step where Dr Sany Nutra, ND evaluates your condition, identifies potential root causes, and creates a clear plan forward.
+                  A one-on-one session designed to understand your health concerns in detail. This is the first and most important step where Dr Sany, ND evaluates your condition, identifies potential root causes, and creates a clear plan forward.
                 </p>
                 <div className="service-details-grid">
                   <div>
@@ -51,6 +51,13 @@ export default function Services() {
                       <li>Patients looking for structured plans</li>
                     </ul>
                   </div>
+                </div>
+                <div className="service-pricing-block">
+                  <div className="pricing-row">
+                    <span className="pricing-label">Full Health Consultation (60 minutes)</span>
+                    <span className="pricing-amount">$200</span>
+                  </div>
+                  <p className="pricing-tagline">This Is Not Your Average 5 min Doctor Visit</p>
                 </div>
                 <div style={{ marginTop: '2.5rem' }}>
                   <Link to="/contact" className="btn btn-primary btn-outline" style={{ display: 'inline-block' }}>Book Consultation</Link>
@@ -91,6 +98,16 @@ export default function Services() {
                     </ul>
                   </div>
                 </div>
+                <div className="service-pricing-block">
+                  <div className="pricing-row">
+                    <span className="pricing-label">Initial Visit (Consultation + Lung Therapy)</span>
+                    <span className="pricing-amount">$200</span>
+                  </div>
+                  <div className="pricing-row">
+                    <span className="pricing-label">Follow-up Sessions (within 2 months)</span>
+                    <span className="pricing-amount">$90</span>
+                  </div>
+                </div>
                 <div style={{ marginTop: '2.5rem' }}>
                   <Link to="/contact" className="btn btn-primary btn-outline" style={{ display: 'inline-block' }}>Book Consultation</Link>
                 </div>
@@ -128,6 +145,12 @@ export default function Services() {
                       <li>Individuals experiencing muscle pain</li>
                       <li>People looking for alternative therapies</li>
                     </ul>
+                  </div>
+                </div>
+                <div className="service-pricing-block">
+                  <div className="pricing-row">
+                    <span className="pricing-label">Cupping Therapy Session</span>
+                    <span className="pricing-amount">$100</span>
                   </div>
                 </div>
                 <div style={{ marginTop: '2.5rem' }}>

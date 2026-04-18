@@ -22,7 +22,7 @@ export default function Header() {
     <header className="header">
       <div className="container header-container">
         <Link to="/" className="logo">
-          <span className="logo-text">Dr Sany <span className="logo-accent">Nutra</span></span>
+          <span className="logo-text">Dr Sany<span className="logo-accent">, ND</span></span>
         </Link>
 
         {/* Desktop Nav */}

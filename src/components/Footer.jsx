@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container footer-container">
         <div className="footer-cols">
           <div className="footer-col">
-            <h3 className="footer-logo">Dr Sany <span>Nutra</span></h3>
+            <h3 className="footer-logo">Dr Sany<span>, ND</span></h3>
             <p className="footer-desc">
               Licensed Naturopathic Doctor focused on long-term wellness and personalized care in Calgary.
             </p>
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Dr Sany Nutra, ND. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Dr Sany, ND. All rights reserved.</p>
         </div>
       </div>
     </footer>
