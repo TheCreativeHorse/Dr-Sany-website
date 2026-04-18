@@ -68,7 +68,7 @@ export default function Services() {
             {/* Lung Therapy */}
             <div className="service-row premium-card service-split reverse">
               <div className="card-image service-image-wrapper">
-                 <img src="/images/lung_therapy.png" alt="Lung Therapy Equipment" className="full-cover-image" />
+                 <img src="/images/LungRemedy_updated.png" alt="Lung Therapy Equipment" className="full-cover-image" />
               </div>
               <div className="card-content service-content">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>

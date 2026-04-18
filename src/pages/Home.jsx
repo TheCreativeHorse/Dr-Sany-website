@@ -80,7 +80,7 @@ export default function Home() {
             
             <div className="card service-card">
               <div className="service-img-square bg-lung">
-                 <img src="/images/lung_therapy.png" alt="Lung Therapy Equipment" />
+                 <img src="/images/LungRemedy_updated.png" alt="Lung Remedy" />
               </div>
               <div className="service-card-body">
                 <h3>Lung Therapy</h3>
